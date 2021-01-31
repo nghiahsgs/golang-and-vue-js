@@ -1,0 +1,4 @@
+web:
+	cd front-end && npm run build
+	cd backend && cd api && go run main.go
+	cd backend && cd web && go run main.go
